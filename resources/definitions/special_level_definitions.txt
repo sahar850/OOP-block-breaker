@@ -1,0 +1,70 @@
+
+# Level 2
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:hachmad
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(special/soldiers.jpg)
+paddle_speed:650
+paddle_width:360
+block_definitions:definitions/adef_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllll--
+-zzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+level_name:nashralha
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(special/soldiers.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/ndef_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Binladen
+ball_velocities:45,550
+background:image(special/soldiers.jpg)
+paddle_speed:650
+paddle_width:460
+block_definitions:definitions/bldef_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+
+END_BLOCKS
+END_LEVEL
